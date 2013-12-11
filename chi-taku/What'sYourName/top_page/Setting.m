@@ -23,16 +23,6 @@
     return self;
 }
 
-
-- (BOOL)textFieldShouldReturn:(UITextField *)textField
-{
-    [self.view endEditing:YES];
-    return YES;
-}
-
-
-
-
 - (IBAction)Save_text:(id)sender {
 
     [self saveDefault];
@@ -41,10 +31,10 @@
 
 - (void) saveDefault {
     
-    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSUserDefaults *memory = [NSUserDefaults standardUserDefaults];
     
-    [userDefaults setObject : self.Name_text.text forKey :Text1];
-    [userDefaults synchronize];
+    [memory setObject : self.Name_text.text forKey :Text1];
+    [memory synchronize];
     
 }
 
@@ -52,20 +42,17 @@
 {
     [super viewDidLoad];
     
-    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSUserDefaults *UserDefaults = [NSUserDefaults standardUserDefaults];
     
-    NSString *name_textStr = [userDefaults stringForKey:Text1];
+    NSString *name_textstr = [UserDefaults stringForKey:Text1];
     
-    self.Name_text.text = name_textStr;
+    self.Name_text.text = name_textstr;
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-
-self.Name_text.delegate = self;
-
 }
 
 - (void)didReceiveMemoryWarning
