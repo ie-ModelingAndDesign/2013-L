@@ -33,7 +33,11 @@
     
     NSUserDefaults *memory = [NSUserDefaults standardUserDefaults];
     
-    [memory setObject : self.Name_text.text forKey :Text1];
+    [memory setObject : self.Name_text.text forKey :Name];
+    [memory setObject : self.oldyears_text.text forKey :old];
+    [memory setObject : self.Birthplace_text.text forKey :Birt];
+    [memory setObject : self.Affiliation.text forKey :Affi];
+    [memory setObject : self.Like_text.text forKey :Like];
     [memory synchronize];
     
 }
@@ -44,10 +48,22 @@
     
     NSUserDefaults *UserDefaults = [NSUserDefaults standardUserDefaults];
     
-    NSString *name_textstr = [UserDefaults stringForKey:Text1];
-    
+    NSString *name_textstr = [UserDefaults stringForKey:Name];
     self.Name_text.text = name_textstr;
 
+    NSString *old_textstr = [UserDefaults stringForKey:old];
+    self.oldyears_text.text = old_textstr;
+    
+    NSString *Birt_textstr = [UserDefaults stringForKey:Birt];
+    self.Birthplace_text.text = Birt_textstr;
+    
+    NSString *Affi_textstr = [UserDefaults stringForKey:Affi];
+    self.Affiliation.text = Affi_textstr;
+    
+    NSString *Like_textstr = [UserDefaults stringForKey:Like];
+    self.Like_text.text = Like_textstr;
+    
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -55,7 +71,11 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 
     self.Name_text.delegate = self;
-
+    self.oldyears_text.delegate = self;
+    self.Birthplace_text.delegate = self;
+    self.Affiliation.delegate = self;
+    self.Like_text.delegate = self;
+    
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField

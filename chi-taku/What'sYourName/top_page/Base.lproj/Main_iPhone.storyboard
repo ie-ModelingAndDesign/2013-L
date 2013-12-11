@@ -220,7 +220,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wBX-nn-oBF">
-                                                    <rect key="frame" x="108" y="7" width="192" height="30"/>
+                                                    <rect key="frame" x="108" y="8" width="192" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -288,7 +288,11 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="設定" id="t7R-0x-GSe"/>
                     <connections>
+                        <outlet property="Affiliation" destination="zVV-aF-CnZ" id="RV3-H1-vqW"/>
+                        <outlet property="Birthplace_text" destination="kcN-2t-WMd" id="FFt-PF-qwk"/>
+                        <outlet property="Like_text" destination="wBX-nn-oBF" id="VBV-8I-15i"/>
                         <outlet property="Name_text" destination="1mo-iH-Vaw" id="CKZ-YD-VDF"/>
+                        <outlet property="oldyears_text" destination="71t-c4-bl1" id="pVd-oD-Hl3"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dmq-lc-cnC" userLabel="First Responder" sceneMemberID="firstResponder"/>
