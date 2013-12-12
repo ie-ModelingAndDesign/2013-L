@@ -33,7 +33,11 @@
     
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     
-    [userDefaults setObject : self.Name_text.text forKey :Text1];
+    [userDefaults setObject : self.Name_text.text forKey :Name];
+    [userDefaults setObject : self.Oldyears_text.text forKey :Old];
+    [userDefaults setObject : self.Birthplace_text.text forKey :Birth];
+    [userDefaults setObject : self.Affiliation_text.text forKey :Affi];
+    [userDefaults setObject : self.Like_text.text forKey :Like];
     [userDefaults synchronize];
     
 }
@@ -44,15 +48,39 @@
     
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     
-    NSString *name_textStr = [userDefaults stringForKey:Text1];
-    
+    NSString *name_textStr = [userDefaults stringForKey:Name];
     self.Name_text.text = name_textStr;
 
+    NSString *Old_textstr = [userDefaults stringForKey:Old];
+    self.Oldyears_text.text = Old_textstr;
+    
+    NSString *Birth_textstr = [userDefaults stringForKey:Birth];
+    self.Birthplace_text.text = Birth_textstr;
+    
+    NSString *Affi_textstr = [userDefaults stringForKey:Affi];
+    self.Affiliation_text.text = Affi_textstr;
+    
+    NSString *Like_textstr = [userDefaults stringForKey:Like];
+    self.Like_text.text = Like_textstr;
+    
+    self.Name_text.delegate = self;
+    self.Oldyears_text.delegate = self;
+    self.Birthplace_text.delegate = self;
+    self.Affiliation_text.delegate = self;
+    self.Like_text.delegate = self;
+
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [self.view endEditing:YES];
+    return YES;
 }
 
 - (void)didReceiveMemoryWarning

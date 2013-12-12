@@ -10,9 +10,9 @@
 
 #define Name @"Name"
 
-#define old @"oldy"
+#define old @"Old"
 
-#define Birt @"Birt"
+#define Birt @"Birth"
 
 #define Affi @"Affi"
 

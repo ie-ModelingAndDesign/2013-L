@@ -171,6 +171,9 @@
                                                 </textField>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="accessoryView" destination="UV0-WP-VeW" id="7JG-uS-uZ4"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="EfQ-Jk-zmL">
                                         <rect key="frame" x="0.0" y="207" width="320" height="44"/>
@@ -286,7 +289,11 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="設定" id="t7R-0x-GSe"/>
                     <connections>
+                        <outlet property="Affiliation_text" destination="zVV-aF-CnZ" id="Mfk-IW-QLn"/>
+                        <outlet property="Birthplace_text" destination="kcN-2t-WMd" id="xkc-kt-2ov"/>
+                        <outlet property="Like_text" destination="wBX-nn-oBF" id="lRN-nQ-Rn6"/>
                         <outlet property="Name_text" destination="1mo-iH-Vaw" id="CKZ-YD-VDF"/>
+                        <outlet property="Oldyears_text" destination="71t-c4-bl1" id="FYZ-Gc-13h"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dmq-lc-cnC" userLabel="First Responder" sceneMemberID="firstResponder"/>
