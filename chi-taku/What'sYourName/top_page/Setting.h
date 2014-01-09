@@ -18,6 +18,10 @@
 
 #define Like @"Like"
 
+#define Addr @"Addr"
+
+#define Numb @"Numb"
+
 @interface Setting : UITableViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *Name_text;
@@ -29,6 +33,11 @@
 @property (weak, nonatomic) IBOutlet UITextField *Affiliation;
 
 @property (weak, nonatomic) IBOutlet UITextField *Like_text;
+
+@property (weak, nonatomic) IBOutlet UITextField *Address;
+
+@property (weak, nonatomic) IBOutlet UITextField *Number;
+
 
 
 - (IBAction)Save_text:(id)sender;

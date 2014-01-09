@@ -38,6 +38,8 @@
     [memory setObject : self.Birthplace_text.text forKey :Birt];
     [memory setObject : self.Affiliation.text forKey :Affi];
     [memory setObject : self.Like_text.text forKey :Like];
+    [memory setObject : self.Address.text forKey :Addr];
+    [memory setObject : self.Number.text forKey :Numb];
     [memory synchronize];
     
 }
@@ -63,6 +65,11 @@
     NSString *Like_textstr = [UserDefaults stringForKey:Like];
     self.Like_text.text = Like_textstr;
     
+    NSString *Addr_textstr = [UserDefaults stringForKey:Addr];
+    self.Address.text = Addr_textstr;
+    
+    NSString *Numb_textstr = [UserDefaults stringForKey:Numb];
+    self.Number.text = Numb_textstr;
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -75,7 +82,8 @@
     self.Birthplace_text.delegate = self;
     self.Affiliation.delegate = self;
     self.Like_text.delegate = self;
-    
+    self.Address.delegate = self;
+    self.Number.delegate = self;
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
