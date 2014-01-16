@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3261034D188770300010526C /* BusinessCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3261034C188770300010526C /* BusinessCardModel.m */; };
 		327D113818870BF2006CDDFE /* BusinessCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 327D113718870BF2006CDDFE /* BusinessCard.m */; };
 		E8666A061834609900F6AD3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8666A051834609900F6AD3B /* Foundation.framework */; };
 		E8666A081834609900F6AD3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8666A071834609900F6AD3B /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3261034B188770300010526C /* BusinessCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardModel.h; sourceTree = "<group>"; };
+		3261034C188770300010526C /* BusinessCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardModel.m; sourceTree = "<group>"; };
 		327D113618870BF2006CDDFE /* BusinessCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCard.h; sourceTree = "<group>"; };
 		327D113718870BF2006CDDFE /* BusinessCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCard.m; sourceTree = "<group>"; };
 		E8666A021834609900F6AD3B /* top_page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = top_page.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +125,8 @@
 				E8666A151834609900F6AD3B /* AppDelegate.m */,
 				E8666A171834609900F6AD3B /* Main_iPhone.storyboard */,
 				327D113618870BF2006CDDFE /* BusinessCard.h */,
+				3261034B188770300010526C /* BusinessCardModel.h */,
+				3261034C188770300010526C /* BusinessCardModel.m */,
 				327D113718870BF2006CDDFE /* BusinessCard.m */,
 				E8719FA81847707600303869 /* Setting.h */,
 				E8719FA91847707600303869 /* Setting.m */,
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8666A1F1834609900F6AD3B /* ViewController.m in Sources */,
+				3261034D188770300010526C /* BusinessCardModel.m in Sources */,
 				E8666A161834609900F6AD3B /* AppDelegate.m in Sources */,
 				E8719FAA1847707600303869 /* Setting.m in Sources */,
 				327D113818870BF2006CDDFE /* BusinessCard.m in Sources */,
