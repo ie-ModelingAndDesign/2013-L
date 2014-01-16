@@ -28,11 +28,27 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 
-/* NSUserDefaults *UserDefaults = [NSUserDefaults standardUserDefaults];
-    NSString *name_textstr = [UserDefaults stringForKey:Name];
+ NSUserDefaults *UserDefaults = [NSUserDefaults standardUserDefaults];
+   
+    NSString *name_textstr = [UserDefaults stringForKey:@"Name"];
     self.name_card.text = name_textstr;
-*/
 
+    NSString *old_textstr = [UserDefaults stringForKey:@"old"];
+    self.yeah_card.text = old_textstr;
+    
+    NSString *Affi_textstr = [UserDefaults stringForKey:@"Affi"];
+    self.belong_card.text = Affi_textstr;
+    
+    NSString *Addr_textstr = [UserDefaults stringForKey:@"Addr"];
+    self.address_card.text = Addr_textstr;
+    
+    NSString *Numb_textstr = [UserDefaults stringForKey:@"Numb"];
+    self.number_card.text = Numb_textstr;
+  
+  
+    
+    
+    
 
 }
 
