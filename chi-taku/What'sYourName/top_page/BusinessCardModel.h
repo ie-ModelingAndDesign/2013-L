@@ -15,5 +15,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *belong_card;
 @property (weak, nonatomic) IBOutlet UILabel *address_card;
 @property (weak, nonatomic) IBOutlet UILabel *number_card;
+@property (weak, nonatomic) IBOutlet UILabel *address2_card;
 
 @end

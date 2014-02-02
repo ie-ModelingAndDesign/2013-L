@@ -45,7 +45,8 @@
     NSString *Numb_textstr = [UserDefaults stringForKey:@"Numb"];
     self.number_card.text = Numb_textstr;
   
-  
+    NSString *Birt_textstr = [UserDefaults stringForKey:@"Birth"];
+    self.address2_card.text = Birt_textstr;
     
     
     
