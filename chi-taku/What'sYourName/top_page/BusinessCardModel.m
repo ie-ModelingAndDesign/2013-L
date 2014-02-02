@@ -33,7 +33,7 @@
     NSString *name_textstr = [UserDefaults stringForKey:@"Name"];
     self.name_card.text = name_textstr;
 
-    NSString *old_textstr = [UserDefaults stringForKey:@"old"];
+    NSString *old_textstr = [UserDefaults stringForKey:@"Old"];
     self.yeah_card.text = old_textstr;
     
     NSString *Affi_textstr = [UserDefaults stringForKey:@"Affi"];
