@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3261034D188770300010526C /* BusinessCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3261034C188770300010526C /* BusinessCardModel.m */; };
-		32A7414F189E6F15000D47FA /* frame0052.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A7414E189E6F15000D47FA /* frame0052.jpg */; };
 		32A74152189E8E00000D47FA /* Normal_int.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A74151189E8E00000D47FA /* Normal_int.m */; };
-		32A74154189E93BE000D47FA /* 51adfdc6.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A74153189E93BE000D47FA /* 51adfdc6.png */; };
 		32A74157189E9511000D47FA /* kuma_kuma.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A74156189E9511000D47FA /* kuma_kuma.m */; };
-		32E44A2B1890BAEC00B410BE /* frame0052.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32E44A2A1890BAEC00B410BE /* frame0052.jpg */; };
-		32E44A2D1890BB1600B410BE /* frame0052.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32E44A2C1890BB1600B410BE /* frame0052.jpg */; };
+		32A74159189E9618000D47FA /* frame0052.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32A74158189E9618000D47FA /* frame0052.jpg */; };
+		32A7415B189E9623000D47FA /* 51adfdc6.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A7415A189E9623000D47FA /* 51adfdc6.png */; };
 		E8666A061834609900F6AD3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8666A051834609900F6AD3B /* Foundation.framework */; };
 		E8666A081834609900F6AD3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8666A071834609900F6AD3B /* CoreGraphics.framework */; };
 		E8666A0A1834609900F6AD3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8666A091834609900F6AD3B /* UIKit.framework */; };
@@ -44,14 +42,12 @@
 /* Begin PBXFileReference section */
 		3261034B188770300010526C /* BusinessCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardModel.h; sourceTree = "<group>"; };
 		3261034C188770300010526C /* BusinessCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardModel.m; sourceTree = "<group>"; };
-		32A7414E189E6F15000D47FA /* frame0052.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = frame0052.jpg; path = ../../../../Desktop/frame0052.jpg; sourceTree = "<group>"; };
 		32A74150189E8E00000D47FA /* Normal_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Normal_int.h; sourceTree = "<group>"; };
 		32A74151189E8E00000D47FA /* Normal_int.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Normal_int.m; sourceTree = "<group>"; };
-		32A74153189E93BE000D47FA /* 51adfdc6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 51adfdc6.png; path = ../../../../Desktop/51adfdc6.png; sourceTree = "<group>"; };
 		32A74155189E9511000D47FA /* kuma_kuma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kuma_kuma.h; sourceTree = "<group>"; };
 		32A74156189E9511000D47FA /* kuma_kuma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kuma_kuma.m; sourceTree = "<group>"; };
-		32E44A2A1890BAEC00B410BE /* frame0052.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = frame0052.jpg; path = ../../../../Desktop/frame0052.jpg; sourceTree = "<group>"; };
-		32E44A2C1890BB1600B410BE /* frame0052.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = frame0052.jpg; path = ../../../../Desktop/frame0052.jpg; sourceTree = "<group>"; };
+		32A74158189E9618000D47FA /* frame0052.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frame0052.jpg; sourceTree = SOURCE_ROOT; };
+		32A7415A189E9623000D47FA /* 51adfdc6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 51adfdc6.png; sourceTree = SOURCE_ROOT; };
 		E8666A021834609900F6AD3B /* top_page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = top_page.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8666A051834609900F6AD3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E8666A071834609900F6AD3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,19 +128,17 @@
 		E8666A0B1834609900F6AD3B /* top_page */ = {
 			isa = PBXGroup;
 			children = (
-				32E44A2A1890BAEC00B410BE /* frame0052.jpg */,
 				E8666A141834609900F6AD3B /* AppDelegate.h */,
-				32A74153189E93BE000D47FA /* 51adfdc6.png */,
 				E8666A151834609900F6AD3B /* AppDelegate.m */,
 				E8666A171834609900F6AD3B /* Main_iPhone.storyboard */,
+				32A74158189E9618000D47FA /* frame0052.jpg */,
 				32A74155189E9511000D47FA /* kuma_kuma.h */,
 				32A74156189E9511000D47FA /* kuma_kuma.m */,
+				32A7415A189E9623000D47FA /* 51adfdc6.png */,
 				32A74150189E8E00000D47FA /* Normal_int.h */,
 				32A74151189E8E00000D47FA /* Normal_int.m */,
 				3261034B188770300010526C /* BusinessCardModel.h */,
 				3261034C188770300010526C /* BusinessCardModel.m */,
-				32A7414E189E6F15000D47FA /* frame0052.jpg */,
-				32E44A2C1890BB1600B410BE /* frame0052.jpg */,
 				E8719FA81847707600303869 /* Setting.h */,
 				E8719FA91847707600303869 /* Setting.m */,
 				E8666A1D1834609900F6AD3B /* ViewController.h */,
@@ -260,13 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A74154189E93BE000D47FA /* 51adfdc6.png in Resources */,
-				32E44A2D1890BB1600B410BE /* frame0052.jpg in Resources */,
 				E8666A211834609900F6AD3B /* Images.xcassets in Resources */,
-				32A7414F189E6F15000D47FA /* frame0052.jpg in Resources */,
 				E8666A191834609900F6AD3B /* Main_iPhone.storyboard in Resources */,
-				32E44A2B1890BAEC00B410BE /* frame0052.jpg in Resources */,
+				32A74159189E9618000D47FA /* frame0052.jpg in Resources */,
 				E8666A101834609900F6AD3B /* InfoPlist.strings in Resources */,
+				32A7415B189E9623000D47FA /* 51adfdc6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

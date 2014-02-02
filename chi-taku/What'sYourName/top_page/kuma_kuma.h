@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface kuma_kuma : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *address_kuma;
+@property (weak, nonatomic) IBOutlet UILabel *name_kuma;
+@property (weak, nonatomic) IBOutlet UILabel *address2_kuma;
 
 @end

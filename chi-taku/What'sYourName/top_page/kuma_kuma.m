@@ -27,6 +27,22 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+
+NSUserDefaults *UserDefaults = [NSUserDefaults standardUserDefaults];
+    
+    
+    NSString *Affi_textstr = [UserDefaults stringForKey:@"Affi"];
+    self.address_kuma.text = Affi_textstr;
+    
+
+    NSString *name_textstr = [UserDefaults stringForKey:@"Name"];
+    self.name_kuma.text = name_textstr;
+
+    NSString *Birt_textstr = [UserDefaults stringForKey:@"Birth"];
+    self.address2_kuma.text = Birt_textstr;
+
+
+
 }
 
 - (void)didReceiveMemoryWarning
