@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3224FB9318A9279000880FDD /* 紳士真.png in Resources */ = {isa = PBXBuildFile; fileRef = 3224FB9218A9279000880FDD /* 紳士真.png */; };
 		3224FB9518A92D7200880FDD /* 紳士濃.png in Resources */ = {isa = PBXBuildFile; fileRef = 3224FB9418A92D7200880FDD /* 紳士濃.png */; };
+		3224FB9918A9405800880FDD /* エンブレム.png in Resources */ = {isa = PBXBuildFile; fileRef = 3224FB9818A9405800880FDD /* エンブレム.png */; };
 		3261034D188770300010526C /* BusinessCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3261034C188770300010526C /* BusinessCardModel.m */; };
 		32994D2A18A8BE1900A072E5 /* 1280x1024akajima1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32994D2918A8BE1900A072E5 /* 1280x1024akajima1.jpg */; };
 		32994D2C18A8C34400A072E5 /* スクリーンショット 2014-02-10 17.18.26.png in Resources */ = {isa = PBXBuildFile; fileRef = 32994D2B18A8C34400A072E5 /* スクリーンショット 2014-02-10 17.18.26.png */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		3224FB9218A9279000880FDD /* 紳士真.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "紳士真.png"; path = "../../../紳士真.png"; sourceTree = "<group>"; };
 		3224FB9418A92D7200880FDD /* 紳士濃.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "紳士濃.png"; path = "../../../紳士濃.png"; sourceTree = "<group>"; };
+		3224FB9818A9405800880FDD /* エンブレム.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "エンブレム.png"; path = "../../../エンブレム.png"; sourceTree = "<group>"; };
 		3261034B188770300010526C /* BusinessCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardModel.h; sourceTree = "<group>"; };
 		3261034C188770300010526C /* BusinessCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardModel.m; sourceTree = "<group>"; };
 		32994D2918A8BE1900A072E5 /* 1280x1024akajima1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1280x1024akajima1.jpg; sourceTree = SOURCE_ROOT; };
@@ -147,6 +149,7 @@
 				3224FB9218A9279000880FDD /* 紳士真.png */,
 				32A74150189E8E00000D47FA /* Normal_int.h */,
 				3224FB9418A92D7200880FDD /* 紳士濃.png */,
+				3224FB9818A9405800880FDD /* エンブレム.png */,
 				32A74151189E8E00000D47FA /* Normal_int.m */,
 				3261034B188770300010526C /* BusinessCardModel.h */,
 				3261034C188770300010526C /* BusinessCardModel.m */,
@@ -269,6 +272,7 @@
 				E8666A211834609900F6AD3B /* Images.xcassets in Resources */,
 				32994D2C18A8C34400A072E5 /* スクリーンショット 2014-02-10 17.18.26.png in Resources */,
 				32994D2A18A8BE1900A072E5 /* 1280x1024akajima1.jpg in Resources */,
+				3224FB9918A9405800880FDD /* エンブレム.png in Resources */,
 				E8666A191834609900F6AD3B /* Main_iPhone.storyboard in Resources */,
 				32A74159189E9618000D47FA /* frame0052.jpg in Resources */,
 				E8666A101834609900F6AD3B /* InfoPlist.strings in Resources */,
